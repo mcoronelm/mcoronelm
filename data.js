@@ -5,7 +5,7 @@ const CONFIG = {
     name: "Moisés Coronel",
     title: "Software Developer",
     about: "Junior Software Developer with active technical training in PHP, Python, JavaScript, and MySQL. Focused on building functional web applications, database design, and backend and full-stack solution development. Combines analytical skills and proven communication abilities with rapid adaptation to new technologies. Available to contribute to agile teams and collaborative development environments. ",
-    photo: "/assets/perfil2.jpg",
+    photo: "assets/perfil2.jpg",
     cv: "assets/MoisesCoronel_CV_EN_2026.pdf",
     email: "mcoronel.mpc@gmail.com",
     linkedin: "https://www.linkedin.com/in/m-coronel/",
@@ -44,7 +44,7 @@ const CONFIG = {
       name: "Introducción a la Ciencia de Datos",
       platform: "Santander Open Academy",
       year: "2026",
-      image: "/assets/certificates/intro.png",
+      image: "assets/certificates/intro.png",
       url: "https://coursera.org/verify/xxxxx"
     },
     {
