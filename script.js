@@ -84,8 +84,8 @@ function initNav() {
 
   const navItems = [
     { id: 'home',      label: 'Home',       icon: svgHome(),      href: 'index.html' },
-    { id: 'education', label: 'Educación',  icon: svgEducation(), href: 'education.html' },
-    { id: 'projects',  label: 'Proyectos',  icon: svgCode(),      href: 'projects.html' },
+    { id: 'education', label: 'Education',  icon: svgEducation(), href: 'education.html' },
+    { id: 'projects',  label: 'Projects',  icon: svgCode(),      href: 'projects.html' },
     
   ];
 
