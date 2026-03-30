@@ -116,9 +116,9 @@ function initNav() {
     html += `
       <div class="sidebar-footer">
         <div class="sidebar-separator"></div>
-        <button class="nav-item theme-toggle" onclick="toggleTheme()" title="Cambiar tema" aria-label="Cambiar tema oscuro/claro">
+        <button class="nav-item theme-toggle" onclick="toggleTheme()" title="Cambiar theme" aria-label="Cambiar theme oscuro/claro">
           <div class="nav-icon"><span class="theme-icon">${svgSun()}</span></div>
-          <span class="nav-label">Tema</span>
+          <span class="nav-label">Theme</span>
         </button>
         <div class="sidebar-separator"></div>
         <div class="sidebar-social">
@@ -160,7 +160,7 @@ function initNav() {
     themeBtn.style.border = 'none';
     themeBtn.style.flex = '1';
     themeBtn.onclick = toggleTheme;
-    themeBtn.innerHTML = `<span class="theme-icon">${svgSun()}</span><span>Tema</span>`;
+    themeBtn.innerHTML = `<span class="theme-icon">${svgSun()}</span><span>theme</span>`;
     mobileNav.appendChild(themeBtn);
   }
 
