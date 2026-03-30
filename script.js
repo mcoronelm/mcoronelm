@@ -268,7 +268,7 @@ function renderHomeContent() {
         </div>
         <span class="email-label fade-in" data-delay="4">${p.email}</span>
         <a class="btn btn-cv fade-in" data-delay="5" href="${p.cv}" download>
-          ${svgDownload()} Descargar CV
+          ${svgDownload()} Ddownload CV
         </a>
         <div class="stats-grid">${statsHtml}</div>
       </div>
