@@ -1,0 +1,31 @@
+<section id="contacto" class="contact-section">
+          <h2>// CONTACTO_</h2>
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-group">
+              <input type="text" id="f-name" name="name" placeholder=" " required autocomplete="name">
+              <label for="f-name">Nombre</label>
+              <span class="form-underline"></span>
+            </div>
+            <div class="form-group">
+              <input type="email" id="f-email" name="email" placeholder=" " required autocomplete="email">
+              <label for="f-email">Email</label>
+              <span class="form-underline"></span>
+            </div>
+            <div class="form-group">
+              <input type="text" id="f-subject" name="subject" placeholder=" ">
+              <label for="f-subject">Asunto</label>
+              <span class="form-underline"></span>
+            </div>
+            <div class="form-group">
+              <textarea id="f-message" name="message" placeholder=" " required rows="4"></textarea>
+              <label for="f-message">Mensaje</label>
+              <span class="form-underline"></span>
+            </div>
+            <div>
+              <button type="submit" class="btn" id="submit-btn">
+                ${svgMail()} Enviar Mensaje
+              </button>
+              <p class="form-status" id="form-status"></p>
+            </div>
+          </form>
+        </section>

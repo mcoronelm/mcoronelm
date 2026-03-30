@@ -1,0 +1,78 @@
+<!-- ════════════════ ARCHIVO: education.html ════════════════ -->
+<!DOCTYPE html>
+<html lang="es" data-theme="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Educación | Tu Nombre</title>
+  <meta name="description" content="Formación académica y certificaciones de Tu Nombre. Educación en análisis de datos, programación y más.">
+
+  <!-- Open Graph -->
+  <meta property="og:title"       content="Educación | Tu Nombre">
+  <meta property="og:description" content="Formación académica y certificaciones profesionales.">
+  <meta property="og:image"       content="assets/photo.jpg">
+  <meta property="og:url"         content="https://tu-usuario.github.io/education.html">
+  <meta property="og:type"        content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Educación | Tu Nombre">
+  <meta name="twitter:description" content="Formación académica y certificaciones profesionales.">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23080808'/><text x='4' y='24' font-size='20' font-family='monospace' fill='%23c8a96e'>∴</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="page-education">
+
+  <!-- Custom cursor (desktop) -->
+  <div id="cursor" aria-hidden="true"></div>
+  <div id="cursor-dot" aria-hidden="true"></div>
+
+  <!-- Sidebar navigation -->
+  <aside id="sidebar" aria-label="Navegación principal"></aside>
+
+  <!-- Mobile bottom navigation -->
+  <nav id="mobile-nav" aria-label="Navegación móvil"></nav>
+
+  <main class="main-content" role="main">
+
+    <!-- Page header -->
+    <header class="page-header">
+      <div class="terminal-label">
+        <span class="prompt">&gt;</span>
+        EDUCATION &amp; CERTIFICATIONS
+        <span class="terminal-cursor" aria-hidden="true"></span>
+      </div>
+      <p class="label">Formación académica y credenciales profesionales</p>
+    </header>
+
+    <!-- Two-column layout -->
+    <div class="education-layout">
+
+      <!-- Left: Academic timeline -->
+      <section aria-labelledby="academic-heading">
+        <h2 id="academic-heading" style="margin-bottom: 2rem;">// ACADEMIC_BACKGROUND</h2>
+        <div class="timeline" id="education-list">
+          <!-- Populated by JS -->
+        </div>
+      </section>
+
+      <!-- Right: Certifications -->
+      <section aria-labelledby="cert-heading">
+        <h2 id="cert-heading" style="margin-bottom: 1.5rem;">// CERTIFICATIONS</h2>
+        <p class="label" style="margin-bottom: 1.5rem; display:block;">
+          Pasa el cursor sobre un certificado para previsualizar &mdash; clic para abrir
+        </p>
+        <div class="cert-list" id="cert-list">
+          <!-- Populated by JS -->
+        </div>
+      </section>
+
+    </div>
+
+  </main>
+
+  <script src="data.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
